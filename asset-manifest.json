@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.dab9fd1f.js",
-    "static/js/787.b12d9d3d.chunk.js": "/static/js/787.b12d9d3d.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.dab9fd1f.js.map": "/static/js/main.dab9fd1f.js.map",
-    "787.b12d9d3d.chunk.js.map": "/static/js/787.b12d9d3d.chunk.js.map"
+    "main.css": "/seekyouth-faq/static/css/main.073c9b0a.css",
+    "main.js": "/seekyouth-faq/static/js/main.f89a9c98.js",
+    "static/js/787.b12d9d3d.chunk.js": "/seekyouth-faq/static/js/787.b12d9d3d.chunk.js",
+    "static/media/logo.svg": "/seekyouth-faq/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/seekyouth-faq/index.html",
+    "main.073c9b0a.css.map": "/seekyouth-faq/static/css/main.073c9b0a.css.map",
+    "main.f89a9c98.js.map": "/seekyouth-faq/static/js/main.f89a9c98.js.map",
+    "787.b12d9d3d.chunk.js.map": "/seekyouth-faq/static/js/787.b12d9d3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.dab9fd1f.js"
+    "static/js/main.f89a9c98.js"
   ]
 }
