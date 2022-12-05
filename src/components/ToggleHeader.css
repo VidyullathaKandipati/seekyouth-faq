@@ -1,0 +1,14 @@
+.toggle-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  border: 1px solid black;
+  padding: 12px;
+}
+
+.toggle-header__toggle-icon {
+  width: 32px;
+  height: 32px;
+}
