@@ -8,8 +8,8 @@ const AustraliaStateInfo = (props) => {
   return (
     <div className="australia-state-info">
       {
-        data.map((d) => (
-          <ToggleContent title={d.title} content={parse(d.content)} headerClassName="australia-state-info__header" />
+        data.map((d, index) => (
+          <ToggleContent key={index} title={d.title} content={parse(d.content)} headerClassName="australia-state-info__header" />
         ))
       }
     </div>
