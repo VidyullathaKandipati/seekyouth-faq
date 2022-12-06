@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import './ToggleContent.css';
 
 const ToggleContent = (props) => {
-  const { title, content, className } = props;
+  const { title, content, className, headerClassName } = props;
   const classes = classNames('toggle-content', className);
   const [ showContent, setShowContent ] = useState(false);
 
@@ -14,7 +14,7 @@ const ToggleContent = (props) => {
 
   return (
     <div className={classes}>
-      <ToggleHeader title={title} onClick={onToggle} />
+      <ToggleHeader title={title} onClick={onToggle} className={headerClassName} />
       {
         showContent
           ? (

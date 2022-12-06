@@ -9,7 +9,7 @@ const AustraliaStateInfo = (props) => {
     <div className="australia-state-info">
       {
         data.map((d) => (
-          <ToggleContent title={d.title} content={parse(d.content)} />
+          <ToggleContent title={d.title} content={parse(d.content)} headerClassName="australia-state-info__header" />
         ))
       }
     </div>
