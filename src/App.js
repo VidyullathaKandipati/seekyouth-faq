@@ -1,13 +1,13 @@
 import './App.css';
-import ToggleHeader from './components/ToggleHeader';
+import AustraliaStateInfo from './components/AustraliaStateInfo';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Seek Youth FAQ
+        Seek Youth Employment Laws
       </header>
-      <ToggleHeader title="test" />
+      <AustraliaStateInfo />
     </div>
   );
 }

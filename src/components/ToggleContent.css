@@ -1,0 +1,8 @@
+.toggle-content {
+  width: 80%;
+  margin: auto;
+}
+
+.toggle-content__content {
+  padding: 12px;
+}
