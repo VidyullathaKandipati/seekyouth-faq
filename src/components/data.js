@@ -137,7 +137,19 @@ const qldContent = `
 <p>Once you have finished year 10 or turned 16 (whichever is first) then you can work full-time. You have to either be in school, a training program or have full-time paid employment until you turn 17, finish year 12, or have completed two years of further education, employment or training, whichever happens first.</p>
 `;
 
-const data = [
+const nzTitle = 'New Zealand';
+const nzContent = `
+<p>In New Zealand there is no general minimum age for employment, but there are rules around the times young people can work and the types of work they can do.</p>
+<ul>
+<li>People under the age of 16 cannot work before 6am or after 10pm</p></li>
+<li>They are legally required to attend school and work must not prevent or interfere with school attendance</li>
+<li>People under the age of 15 cannot work in a factory or place where things are being prepared or made for sale, on a construction site, in a forest where trees are being cut down or processed or in any area where the work being done is likely to harm the employee</li>
+<li>People under the age of 15 are also not allowed to work or assist with work involving machinery, including powered tools and appliances</li>
+</ul>
+`;
+
+const auTitle = 'Australia';
+const auStates = [
   {
     title: ntTitle,
     content: ntContent,
@@ -169,6 +181,17 @@ const data = [
   {
     title: qldTitle,
     content: qldContent,
+  },
+];
+
+const data = [
+  {
+    title: nzTitle,
+    content: nzContent,
+  },
+  {
+    title: auTitle,
+    states: auStates,
   },
 ];
 

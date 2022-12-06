@@ -1,5 +1,5 @@
 import './App.css';
-import AustraliaStateInfo from './components/AustraliaStateInfo';
+import SeekYouthInformation from './components/SeekYouthInformation';
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         Seek Youth Employment Laws
       </header>
-      <AustraliaStateInfo />
+      <SeekYouthInformation />
     </div>
   );
 }
