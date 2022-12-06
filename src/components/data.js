@@ -141,7 +141,7 @@ const nzTitle = 'New Zealand';
 const nzContent = `
 <p>In New Zealand there is no general minimum age for employment, but there are rules around the times young people can work and the types of work they can do.</p>
 <ul>
-<li>People under the age of 16 cannot work before 6am or after 10pm</p></li>
+<li>People under the age of 16 cannot work before 6am or after 10pm</li>
 <li>They are legally required to attend school and work must not prevent or interfere with school attendance</li>
 <li>People under the age of 15 cannot work in a factory or place where things are being prepared or made for sale, on a construction site, in a forest where trees are being cut down or processed or in any area where the work being done is likely to harm the employee</li>
 <li>People under the age of 15 are also not allowed to work or assist with work involving machinery, including powered tools and appliances</li>
@@ -184,14 +184,198 @@ const auStates = [
   },
 ];
 
+const malaysiaTitle = 'Malaysia';
+const malaysiaContent = `
+<h3>Children and Young Persons (Employment) Act 1966</h3>
+<ul>
+<li>This act prohibits children from working near hazardous and poisonous materials.</li>
+<li>No child (under the age of 15 years) or young person (between age of 15 years and under the age of 18 years) engaged in any employment shall in any period of 7 consecutive days be required or permitted to work for more than 6 days.</li>
+<li>For child person only required to work not more than 6 hours in a day and for young person only allowed to work maximum 7 hours per day.</li>
+<li>No child or young person shall or be required/permitted to be engaged in employment contrary to the Factories and Machinery Act 1967, the Occupational Safety and Health Act 1994 or the Electricity Supply Act 1990 or in any employment requiring him to work underground.</li>
+</ul>
+`;
+
+const singaporeTitle = 'Singapore';
+const singaloreContent = `
+<h3>Working Age</h3>
+<p>The legal age to work in Singapore is 17 years and above. You are permitted to employ children and young persons aged 13 years to 16 years, but take note of restrictions on the type of work that children and young persons may perform. For example, a company cannot employ workers below the age of 16 in any workplace with harmful or dangerous working conditions. The retirement age in Singapore is 62. Employees who reach retirement age can be re-employed up to the age of 65. However, only Singapore citizens and permanent residents are eligible for re-employment after the age of 62.</p>
+`;
+
+const hkTitle = 'Hong Kong';
+const hkContent = `
+<h3>Employment of Children Regulations</h3>
+<p>The Employment of Children Regulations made under the Employment Ordinance govern the employment of children in all economic sectors. A child means a person under the age of 15 years. Major provisions of the Regulations are :</p>
+
+<ul>
+<li>Children aged under 15 are prohibited from working in all industrial undertakings.</li>
+<li>Children aged 13 and 14 may be employed in non-industrial establishments, subject to the condition that they attend full-time schooling if they have not yet completed Form III of secondary education and to other conditions which aim at protecting their safety, health and welfare.</li>
+<li>Children aged under 13 are prohibited from taking up employment. However, for the purposes of art and training, the Commissioner for Labour may grant special permission for children to be employed as entertainers, subject to certain stringent conditions as the Commissioner may specify.</li>
+</ul>
+
+<p>The Employment of Children Regulations do not apply in relation to children who are registered apprentices under the Apprenticeship Ordinance</p>
+
+<h3>Employment of Young Persons (Industry) Regulationss</h3>
+
+<p>Employment of Young Persons (Industry) Regulations made under the Employment Ordinance regulate the hours of work and the general conditions of employment of young persons in industrial undertakings. A young person means a person of or over the age of 15 years but under the age of 18 years. Major provisions of the Regulations are :</p>
+
+<ul>
+<li>Working time restrictions for young persons employed in industrial undertakings:</li>
+<ul>
+<li>working hours a day: 8 hours (between 7 a.m. and 7 p.m. only)</li>
+<li>working hours a week: 48 hours</li>
+<li>working days a week: 6 days</li>
+<li>maximum period of continuous work: 5 hours followed by an interval of not less than half an hour for meal or rest</li>
+</ul>
+<li>A notice specifying the working hours and rest day arrangement of the young persons and vetted by the Labour Department should be posted up in a conspicuous place in the workplace</li>
+<li>Change of permissible working hours and rest days is not allowed unless prior notice has been served on the Commissioner for Labour 48 hours before the proposed change</li>
+<li>Overtime employment, night work and working on rest days and statutory holidays are prohibited</li>
+<li>Underground work in mines and quarries or in industrial undertakings involving tunnelling operations, and carrying loads unreasonably heavy for the young person's age and physical development are prohibited</li>
+<li>Employment of young persons in any dangerous trade is prohibited</li>
+</ul>
+
+`;
+
+const indonesiaTitle = 'Indonesia';
+const indonesiaContent = `
+<h3>Article 68</h3>
+<p>Entrepreneurs are not allowed to employ children.</p>
+
+<h3>Article 69</h3>
+<ol>
+<li>Exemption from what is stipulated under Article 68 may be made for the employment of children aged
+between 13 (thirteen) years old and 15 (fifteen) years old for light work as long as the job does not
+stunt or disrupt their physical, mental and social developments.</li>
+<li>Entrepreneurs who employ children for light work as referred to under subsection (1) must meet the
+following requirements:</li>
+<ol type='a'>
+<li>The entrepreneurs must have written permission from the parents or guardians of the children;</li>
+<li>There must be a work agreement between the entrepreneur and the parents or guardians of the
+children;</li>
+<li>The entrepreneurs must not require the children to work longer than 3 (three) hours [a day];</li>
+<li>The entrepreneurs shall employ the children to work only at day or during the day without
+disturbing their schooling;</li>
+<li>[In employing the children, the entrepreneurs shall meet] occupational safety and health
+requirements;</li>
+<li>A clear-cut employment relation [between the entrepreneur and the child worker/ his or her parent
+or guardian] must be established; and</li>
+<li>The children shall be entitled to receive wages in accordance with valid rulings.</li>
+</ol>
+<li>The rulings that are referred to under point a, b, f and point g of subsection (2) shall not apply to
+children who work for [their parent] in a family business.</li>
+</ol>
+
+<h3>Article 70</h3>
+<ol>
+<li>Children may [be allowed to] do a job or a piece of work at a workplace as part of their school’s
+education curriculum or training which has been made legal by the authorities.</li>
+<li>The children as referred to under subsection (1) shall not be younger than 14 (fourteen) years of age.</li>
+<li>The job or the piece of work as referred to under subsection (1) may be given to the children on the
+condition:</li>
+<ol type='a'>
+<li>That the children are given clear-cut instructions on how to do their job as well as guidance and
+supervision on how to carry out the work; and</li>
+<li>That the occupational safety and health of the children are protected.</li>
+</ol>
+</ol>
+
+<h3>Article 71</h3>
+<ol>
+<li>Children may work or have a job in order to develop their talents and interest.</li>
+<li>Entrepreneurs who employ children as referred to under subsection (1) are under an obligation to meet the following requirements:</li>
+<ol type='a'>
+<li>That the children are put under direct supervision of their parents or guardians;</li>
+<li>That the children are not required to work longer than 3 (three) hours a day; and</li>
+<li>That the working conditions and environment where the children work do not disrupt their</li>
+</ol>
+physical, mental and social developments as well as their education and attendance at school;
+<li>Provisions concerning children who work to develop their talents and interest as referred to under subsection (1) and subsection (2) shall be regulated with a Ministerial Decision. </li>
+</ol>
+
+<h3>Article 72</h3>
+<p>In case children are employed together with adult workers/ labourers, the children’s workplace must be kept separate from that for adult workers/ labourers.</p>
+
+<h3>Article 73</h3>
+<p>Children shall be assumed to be at work if they are found in a workplace unless there is evidence to prove otherwise.</p>
+
+<h3>Article 74</h3>
+<ol>
+<li>Every body shall be prohibited from employing and involving children in the worst forms of child labour [literal: in the worst jobs].</li>
+<li>The worst forms of child labour [literal: the worst jobs] as referred to under subsection (1) include:</li>
+<ol type='a'>
+<li>All kinds of job in the form of slavery or practices similar to slavery;</li>
+<li>All kinds of job that make use of, procure, or offer children for prostitution, the production of pornography, pornographic performances, or gambling;</li>
+<li>All kinds of job that make use of, procure, or involve children for the production and trade of alcoholic beverages, narcotics, psychotropic substances, and other addictive substances; and/or</li>
+<li>All kinds of job harmful to the health, safety and moral of the child.</li>
+</ol>
+<li>The types of jobs that damage the health, safety or moral of the child as referred to under point d of subsection (2) shall be determined and specified with a Ministerial Decision.</li>
+</ol>
+
+<h3>Article 75</h3>
+<ol>
+<li>The government is under an obligation to make efforts to overcome problems concerning or associated with children who work outside of employment relationship.</li>
+<li>The efforts as referred to under subsection (1) shall be determined and specified with a Government Regulation. </li>
+</ol>
+`;
+
+const thaiTitle = 'Thailand';
+const thaiContent = `
+<p>The government is committed to eliminating child labour and has ratified ILO Conventions No. 132 on Minimum Age of Employment and No. 182 on Worst Forms of Child Labour. The National Policy and Plan to Eliminate the Worst Forms of Child Labor Phase II (2015–2020) aims to eradicate the worst forms of child labour by 2020. National laws stipulate a minimum age for employment of 15, and children younger than 18 are protected from hazardous work. According to the 2015 NSO report 85,806 out of 692,819 (12.4%) of reported working children aged 5-17 years were in hazardous conditions. However, the proportion could be higher when accounting for working migrant children who are more vulnerable to hazardous work.</p>
+`;
+
+const phillipinesTitle = 'Phillipines';
+const PhillipinesContent = `
+<h3>LABOR CODE PROVISIONS ON YOUNG WORKERS Book III, Title III, Chapter II- Employment of Minors</h3>
+<ul>
+<li><strong>ART. 137. Minimum Employable Age. – </strong> (a) No child below fifteen (15) years of age shall be employed, except when he works directly under the sole responsibility of his parents or guardian, and his employment does not in any way interfere with his schooling. (b) Any person between fifteen (15) and eighteen (18) years of age may be employed for such number of hours and such periods of the day as determined by the Secretary of Labor and Employment in appropriate regulations. (c) The foregoing provisions shall in no case allow the employment of a person below eighteen (18) years of age in an undertaking which is hazardous or deleterious in nature as determined by the Secretary of Labor and Employment.</li>
+<li><strong>ART. 138. Prohibition Against Child Discrimination. –</strong> No employer shall discriminate against any person in respect to terms and conditions of employment on account of his age.</li>
+</ul>
+`;
+
+const vietTitle = 'Vietnam';
+const vietContent = `
+<h3>Minimum Age</h3>
+<p>In accordance with Vietnam Labor Law, Article 6, the minimum age for workers is 15 for all industries.</p>
+
+<h3>Record Keeping</h3>
+<p>According to the Vietnam Labor Law, Article 119 at places where young workers (under 18 years old) are employed, separate records shall be kept mentioning in full the name, date of birth, work assigned and results of periodic health checks.</p>
+`;
+
 const data = [
+  {
+    title: auTitle,
+    states: auStates,
+  },
   {
     title: nzTitle,
     content: nzContent,
   },
   {
-    title: auTitle,
-    states: auStates,
+    title: malaysiaTitle,
+    content: malaysiaContent,
+  },
+  {
+    title: singaporeTitle,
+    content: singaloreContent,
+  },
+  {
+    title: hkTitle,
+    content: hkContent,
+  },
+  {
+    title: indonesiaTitle,
+    content: indonesiaContent
+  },
+  {
+    title: thaiTitle,
+    content: thaiContent,
+  },
+  {
+    title: phillipinesTitle,
+    content: PhillipinesContent,
+  },
+  {
+    title: vietTitle,
+    content: vietContent,
   },
 ];
 

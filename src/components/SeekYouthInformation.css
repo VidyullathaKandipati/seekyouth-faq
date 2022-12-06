@@ -8,7 +8,7 @@
   margin: auto;
 }
 
-/* .seek-youth-information__country__toggle-content.toggle-content{
-  width: 97%;
-  margin-left: 40px;
-} */
+.seek-youth-information__country__toggle-content.toggle-content{
+  width: 90%;
+  /* margin-left: 50px; */
+}
