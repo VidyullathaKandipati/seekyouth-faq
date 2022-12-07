@@ -5,10 +5,10 @@ import Disclaimer from './components/Disclaimer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Seek Youth Employment Guideline
-      </header>
       <div className='seek-youth__wrapper'>
+        <header className="App-header">
+          Seek Youth Employment Guideline
+        </header>
         <div className='seek-youth__content-wrapper'>
           <SeekYouthInformation />
         </div>

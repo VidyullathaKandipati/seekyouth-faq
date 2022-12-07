@@ -1,7 +1,9 @@
 .disclaimer {
   position: absolute;
+  overflow: hidden;
   bottom: 0px;
   left: 10%;
   height: 100px;
-  padding: 12px;
+  display: flex;
+  align-items: center;
 }
